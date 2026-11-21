@@ -1,0 +1,4 @@
+# Template: replace YOUR-DOMAIN.example with your real domain before use
+User-agent: *
+Allow: /
+Sitemap: https://YOUR-DOMAIN.example/sitemap.xml

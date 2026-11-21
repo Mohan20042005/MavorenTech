@@ -1,0 +1,37 @@
+{
+  "name": "mavoren",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "test:e2e": "playwright test",
+    "lhci": "lhci autorun",
+    "analyze": "ANALYZE=true next build"
+  },
+  "dependencies": {
+    "next": "^15.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.400.0",
+    "zod": "^3.23.0",
+    "react-hook-form": "^7.50.0",
+    "@hookform/resolvers": "^3.9.0",
+    "@sentry/nextjs": "^8.0.0",
+    "@upstash/redis": "^1.34.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@playwright/test": "^1.45.0",
+    "@lhci/cli": "^0.14.0",
+    "@next/bundle-analyzer": "^15.0.0",
+    "tailwindcss": "^3.4.0",
+    "postcss": "^8.4.0",
+    "autoprefixer": "^10.4.0"
+  }
+}
